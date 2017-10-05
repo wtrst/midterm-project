@@ -1,9 +1,14 @@
 .home {
     background-color: white;
     color: #ba132b;
-/*    012761*/
+    /*    012761*/
     padding: 10px;
     margin: 0px;
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
 }
 
 
@@ -13,18 +18,18 @@ body {
 
 header {
     background-color: #ba132b;
+    border-bottom: solid white 5px;
 }
 
 footer {
     background-color: #ba132b;
-/*    margin-bottom: 0px;*/
 }
 
 nav {
     background-color: #485155;
     font-family: 'verdana';
     font-size: 1.5em;
-    position: sticky;
+    border-bottom: solid #ba132b 5px;
 }
 
 nav ul {
@@ -50,17 +55,17 @@ li a:hover {
     background-color: #ba132b;
 }
 
-figure{
+figure {
     margin: 0px;
 }
 
-img{
+img {
     display: block;
     width: 100%;
     height: 80%;
 }
 
-figcaption{
+figcaption {
     text-align: center;
 }
 
@@ -73,7 +78,7 @@ div {
 
 
 h1 {
-    margin: 0px 20px 5px 20px;
+    margin: 0px 20px;
     color: white;
     font-size: 48px;
     padding: 5px;
@@ -85,6 +90,6 @@ h4 {
     font-size: 32px;
 }
 
-p{
+p {
     margin: 0px 20px;
 }

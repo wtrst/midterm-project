@@ -11,6 +11,12 @@
     width: 100%;
 }
 
+.home_img {
+    display: block;
+    width: 100%;
+    height: 80%;
+}
+
 
 body {
     margin: 0px;
@@ -59,11 +65,7 @@ figure {
     margin: 0px;
 }
 
-img {
-    display: block;
-    width: 100%;
-    height: 80%;
-}
+
 
 figcaption {
     text-align: center;

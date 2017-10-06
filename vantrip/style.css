@@ -6,8 +6,8 @@
     margin: 0px;
 }
 
-.absolute{
-    position: absolute;
+.fixed{
+    position: fixed;
     width: 100%;
 }
 

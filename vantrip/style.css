@@ -9,6 +9,7 @@
 .fixed{
     position: fixed;
     width: 100%;
+    z-index: 9999;
 }
 
 .home_img {
@@ -29,6 +30,7 @@ header {
 
 footer {
     background-color: #ba132b;
+    margin-top; 20px;
 }
 
 nav {

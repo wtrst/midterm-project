@@ -54,6 +54,11 @@
     text-align: center;
 }
 
+.tp_img{
+    width: 300px;
+    height: 230px;
+}
+
 body {
     margin: 0px;
 }

@@ -122,10 +122,12 @@ h1 {
     padding: 5px;
 }
 
+/*
 h2 {
     color: #485155;
     font-size: 36px;
 }
+*/
 
 h4 {
     margin: 0px 20px 0px 20px;
@@ -135,4 +137,44 @@ h4 {
 
 p {
     margin: 0px 20px;
+}
+
+#p-acts {
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+#vpic{
+    float: left;
+    padding: 0px 20px;
+    height: 200px;
+    width: 300px;
+}
+
+#wpic{
+    float: right;
+    padding: 0px 20px;
+    height: 200px;
+    width: 300px;
+    
+}
+
+figcaption a {
+    color: #ba132b;
+    background-color: white;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+
+figcaption a:hover {
+    
+    color: white;
+    background-color: #ba132b;
+    
 }

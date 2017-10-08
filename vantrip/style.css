@@ -1,7 +1,7 @@
+
 .static_white_buttom {
     background-color: white;
     color: #ba132b;
-    /*    012761*/
     padding: 10px;
     margin: 0px;
 }
@@ -24,7 +24,7 @@
 }
 
 .contents {
-    margin: 0px 20px;
+    margin: 0px 20px 50px 20px;
 }
 
 .scale img{
@@ -70,8 +70,12 @@ header {
 
 footer {
     background-color: #ba132b;
-    margin-top; 20px;
-    margin-bottom: 0px;
+    position: fixed;
+    /*left: 0;*/
+    bottom: 0;
+    /*height: 37px;*/
+    width: 100%;
+
 }
 
 nav {
@@ -122,12 +126,12 @@ h1 {
     padding: 5px;
 }
 
-/*
-h2 {
+
+#h2 {
     color: #485155;
     font-size: 36px;
 }
-*/
+
 
 h4 {
     margin: 0px 20px 0px 20px;
@@ -136,37 +140,29 @@ h4 {
 }
 
 p {
-    margin: 0px 20px;
-}
-
-#p-acts {
-    color: black;
-    text-align: left;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
+    margin: 0px;
 }
 
 #vpic{
     float: left;
-    padding: 0px 20px;
+    padding-right: 20px;
     height: 200px;
     width: 300px;
+    margin-bottom: 17px;
 }
 
 #wpic{
     float: right;
-    padding: 0px 20px;
+    padding-left: 20px;
     height: 200px;
     width: 300px;
-    
+    margin-bottom: 17px;
 }
 
 figcaption a {
     color: #ba132b;
     background-color: white;
     padding: 2px;
-    margin: 5px;
     border-radius: 5px;
     text-decoration: none;
     
@@ -177,4 +173,12 @@ figcaption a:hover {
     color: white;
     background-color: #ba132b;
     
+}
+
+#h3restaurants{
+    margin-top: 0px;
+}
+
+#h2activities{
+    margin-top: 0px;
 }

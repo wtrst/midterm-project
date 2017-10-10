@@ -211,3 +211,24 @@ figcaption a:hover {
 #p_home {
     font-size: 20px;
 }
+
+.p_restaurants{
+    margin-top: 40px;
+    margin-bottom: 110px;
+}
+
+#h2_restaurant{
+    margin-top: 0px;
+    color: #485155;
+    text-align: center;
+}
+
+#salathai{
+    margin-top: 30px;
+    margin-bottom: 105px;
+}
+
+#sura{
+    margin-top: 8px;
+    margin-bottom: 70px;
+}
